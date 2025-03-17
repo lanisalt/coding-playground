@@ -12,14 +12,9 @@ var speed = 50;
 
 //function for network error message
 const sent1 = [
-  "Your device is not connected.",
-  "Make sure '[—]' is turned on and in range.",
-  "Now discoverable as '[—]'.",
-  "Connection unsuccessful.",
-  "Your connection is unstable.",
-  "Out of range.",
-  "Unexpected device.",
-  "Bad connection.",
+  "They see right through me.",
+  "Can you see right through me?",
+  "I see right through me.",
 ];
 
 const buttonRetry = document.getElementById("button-network");
@@ -57,22 +52,23 @@ function dropdownFunction() {
 //start of haiku function
 //lists of variables: replace all of the 5 and 7 syllable constants in the two arrays below. The more constants you write, the more variety you will have in your poem
 const fiveSyllables = [
-  "jon you are my pet",
-  "garfield was in the oven",
-  "pizza is a dream",
-  "hand over the cheese",
-  "parmesean is life",
-  "i am so hungry",
-  "where did odie go",
-  "get it your damn self",
-  "obey me human",
+  "damsel in distress",
+  "notes app poetry",
+  "forever alone",
+  "save me jane austen",
+  "aphrodite who?",
+  "tinder, hinge, bumble",
+  "in wine, there is truth",
+  "table for one, please",
 ];
 const sevenSyllables = [
-  "cheese makes everything better",
-  "the noodles must be wavey",
-  "nothing left to do but sleep",
-  "thinking about lasagne",
-  "yuk, no i don't want salad",
+  "plenty of fish in the sea",
+  "i wish i were meg ryan",
+  "if you're a bird, i'm a bird",
+  "strong, independent woman",
+  "alexa, play taylor swift",
+  "will i always feel like this?",
+  "too many romance novels",
 ];
 //code for haiku function (do not edit)
 const buttonHaiku = document.getElementById("button-haiku");
@@ -105,26 +101,64 @@ const textInput = document.getElementById("text-input");
 //search function constants
 //play with Google search function to come up with search terms most relevant to you. Think about how these search terms tell a story. Replace all of the placeholder text below (phrases in red font) with search terms of your own. If you keep the phrases organised alphabetically, you can ensure you have enough results for each word.
 const words = [
-  "art of war free download",
-  "ask izzy",
-  "australian family law issues in the news",
+  "pride and prejudice watch for free online no ads",
+  "pride and prejudice hand flex scence",
+  "pinterest",
+  "PTV journey tracker",
 
-  "barrister vs lawyer australia",
-  "barrister vs solicitor",
-  "bulk billed therapy",
+  "taylor swift",
+  "taylor swift foolish one lyrics",
+  "t2 tea",
 
-  "can i seek to vary my family court order",
-  "ccs has no cctv",
-  "childcare how expensive",
+  "RMIT love letters",
+  "readings bookshop near me",
+  "riley green worst way music video",
+  "recipes with potatoes",
 
-  "delete search history",
-  "delusional jealousy",
-  "dv stats australia",
+  "adf elistment",
+  "avoidant attachment",
+  "accidentally cut bangs too short",
 
-  "earliest memories as a child",
-  "emotional manipulation signs",
+  "benefits of being single",
+  "best things to do alone in melbourne",
+  "bumble sign up",
 
-  "fridge magnets",
+  "how to date celebrity crush",
+  "how to cut bangs at home",
+  "hobbies for lonely girls in their 20s",
+
+  "from eden lyrics hozier",
+
+  "speed dating",
+  "sebastian stan",
+  "sebastian stan girlfriend",
+
+  "where to find a boyfriend",
+  "work visa ireland",
+
+  "gone with the wind",
+  "glitter nail polish",
+  "glitch",
+  "github",
+
+  "does he like me quiz",
+  "dresses for tall girls",
+
+  "lighthouse keeper jobs near me",
+
+  "netflix",
+
+  "archive of our own",
+
+  "is sebastian stan single",
+  "is it normal to be single at 20",
+  "is cereal a soup",
+
+  "cures for burnout",
+  "can i still find fulfilment as a single woman",
+  "cat videos",
+
+  "when harry met sally",
 ];
 //search function (do not edit)
 function changeText(e) {
@@ -156,15 +190,10 @@ textInput.addEventListener("input", changeText);
 //start of code for poem
 
 const subjects =
-    "robots, pilgrims, broken families, displaced animals, right-wing militants, cyborgs".split(
-      ","
-    ),
-  verbs =
-    "wander,search, cross, kneel to pray in, avoid, survey, sneak across, hide in".split(
-      ","
-    ),
+    "jaded spinsters, childless cat ladies, single young women, I".split(","),
+  verbs = "lie dead, yearn shamelessly, scout for love, sit alone".split(","),
   objects =
-    "the barren plains,the wilted grasslands, vast wastelands,wildernesses unknown,languishing caravan parks, arid deserts, military bunkers, valleys of ash and bone".split(
+    "in empty bed sheets, on a bustling city street, in a soulless nightclub, amongst a crowd of strangers, at another birthday party, on a university campus, on train platforms".split(
       ","
     );
 // set up the counter
@@ -220,4 +249,4 @@ function processPoem() {
     removeFirstLine();
   }
 }
-window.setInterval(processPoem, 1000);
+window.setInterval(processPoem, 2000);
