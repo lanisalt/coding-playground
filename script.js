@@ -35,16 +35,16 @@ function addEval(evalText) {
 //think about what use you might have for a dropdown menu: you could have someone select their 'mood' and give them an appropriate song, a bit of good or bad advice, an emoji, etc.
 function dropdownFunction() {
   var x = document.getElementById("subject").value;
-  if (x === "flighty") {
-    addEval("🛩️🐦🦅🦋🌪️💭");
-  } else if (x === "vague") {
-    addEval("🥱👽🐙🪼🌘");
-  } else if (x === "joyful") {
-    addEval("😀😍😸👾👻🕺");
-  } else if (x === "cloudy") {
-    addEval("🌦️🌨️🫧🌫️☔⚡🥶");
-  } else if (x === "hangry") {
-    addEval("🍟🥨🌮🥗🍱");
+  if (x === "denial") {
+    addEval("haunted - taylor swift");
+  } else if (x === "anger") {
+    addEval("babe - sugarland");
+  } else if (x === "bargaining") {
+    addEval("the man who can't be moved - the script");
+  } else if (x === "depression") {
+    addEval("torn - natalie imbruglia");
+  } else if (x === "acceptance") {
+    addEval("good grief - bastille");
   }
 }
 //end of dropdown function
