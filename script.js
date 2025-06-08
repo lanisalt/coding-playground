@@ -15,6 +15,7 @@ const sent1 = [
   "They see right through me.",
   "Can you see right through me?",
   "I see right through me.",
+  "always an angel, never a god",
 ];
 
 const buttonRetry = document.getElementById("button-network");
@@ -35,16 +36,16 @@ function addEval(evalText) {
 //think about what use you might have for a dropdown menu: you could have someone select their 'mood' and give them an appropriate song, a bit of good or bad advice, an emoji, etc.
 function dropdownFunction() {
   var x = document.getElementById("subject").value;
-  if (x === "flighty") {
-    addEval("🛩️🐦🦅🦋🌪️💭");
-  } else if (x === "vague") {
-    addEval("🥱👽🐙🪼🌘");
-  } else if (x === "joyful") {
-    addEval("😀😍😸👾👻🕺");
-  } else if (x === "cloudy") {
-    addEval("🌦️🌨️🫧🌫️☔⚡🥶");
-  } else if (x === "hangry") {
-    addEval("🍟🥨🌮🥗🍱");
+  if (x === "stage 1 - denial") {
+    addEval("haunted - taylor swift");
+  } else if (x === "stage 2 - anger") {
+    addEval("babe - sugarland");
+  } else if (x === "stage 3 - bargaining") {
+    addEval("the man who can't be moved - the script");
+  } else if (x === "stage 4 - depression") {
+    addEval("torn - natalie imbruglia");
+  } else if (x === "stage 5 - acceptance") {
+    addEval("good grief - bastille");
   }
 }
 //end of dropdown function
@@ -159,6 +160,35 @@ const words = [
   "cat videos",
 
   "when harry met sally",
+  "wine",
+  "winter soldier",
+  
+  "evermore taylor swift",
+  "easycite",
+  "enlistment tips",
+  
+  "jobs near me",
+  
+  "kiss me sixpence none the richer",
+  "knives out",
+  
+  "medic roles adf",
+  
+  "outlander",
+  
+  "quiche recipe",
+  
+  "us gracie abrams ft. taylor swift",
+  
+  "vce results relevant for how long",
+  
+  "x.com",
+  
+  "youtube",
+  
+  "zendaya",
+
+  
 ];
 //search function (do not edit)
 function changeText(e) {

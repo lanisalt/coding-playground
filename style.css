@@ -154,9 +154,9 @@ h5 {
   min-height: 375px;
   border-radius: 10px 10px 10px 10px;
   text-align: left;
-  background-color: #000000;
-  background-image: url(); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
-  color: #68d911;
+  background-color:light-blue;
+  background-image: url(https://cdn.glitch.global/3dcee723-93ba-4bbc-973c-4c9d23905f37/Green%20Screen%20Animation%20GIF%20by%20Jef%20Caine.gif?v=1749386154958); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
+  color: white ;
   font-family: "Source Code Pro", monospace;
   font-size: 14px; 
 }
