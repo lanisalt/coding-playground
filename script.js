@@ -34,7 +34,7 @@ function addEval(evalText) {
 }
 //when selected in the dropdown menu, the x variables trigger the associated text. Edit the x variables (and make sure to also update them in the index.html file) and edit the associated text/emojis within the quotes
 //think about what use you might have for a dropdown menu: you could have someone select their 'mood' and give them an appropriate song, a bit of good or bad advice, an emoji, etc.
-function dropdownFunction() {
+function dropdownFun() {
   var x = document.getElementById("subject").value;
   if (x === "stage 1 - denial") {
     addEval("haunted - taylor swift");
